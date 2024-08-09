@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="wc.css">
+        <title>Netherlands Squad</title>
+    </head>
+    <body>
+        <div class="bg"></div>
+
+        <div class="bio">
+          <h1>The Netherlands</h1>
+          <i>"Oranje"</i>
+          <br>
+          <img src='https://i.postimg.cc/vcb7Kksp/240-F-97427699-4n-UXSDX0s-LISB9rjg-DNc-Apu3-W6crea1-Y.jpg' alt='nl-flag' class="flag"/>
+          <br>
+          <p>Coach: Louis van Gaal</p>
+          <p class="forma">Formation: 4-3-1-2</p>
+          <p>Star Player: Arjen Robben</p>
+          <img src='https://i.postimg.cc/phrHZRVR/Untitled-design-5.png' alt='4312' class="form"/>
+          <p class="story">The Netherlands made it as far the semi-final, going out of the tournament at the hands of Argentina. They did however manage to win the third place medal defeating Brazil in the third place match 3-0. While they did not win it all, The Netherlands had several historic moments throughout the tournament, most notably Robin van Persie's header goal versus Spain in the group stage, remembered as the "Flying Dutchman" goal. Their tournament saw flashes of great attacking display from the front duo of Robben and van Persie, but they couldn't find the goal against Argentina needed to get them to the final.</p>
+        </div>
+
+        <label class="tabmenu">
+        <select id="pageSelect" onchange="redirectToPage()">
+            <option value="">Choose a Different Nation</option>
+            <option value="index.html">Back to Home</option>
+            <option value="arg.html">Argentina</option>
+            <option value="bel.html">Belgium</option>
+            <option value="brz.html">Brazil</option>
+            <option value="col.html">Colombia</option>
+            <option value="cr.html">Costa Rica</option>
+            <option value="fr.html">France</option>
+            <option value="ger.html">Germany</option>
+        </select>
+        </label>
+
+        <label class="sort">
+            <label>Sort players by their stats here:</label>
+            <label><input id="reset" type="radio" name="sorter" checked>Default (By Position)</label>
+            <label><input id="sortgp" type="radio" name="sorter">Games Played</label>
+            <label><input id="sortgoals" type="radio" name="sorter">Goals Scored</label>
+            <label><input id="sortassists" type="radio" name="sorter">Assists Made</label>
+        </label>
+
+        <main>
+          <div class="container">            
+            <div class="keepers">
+                <h2>Goalkeepers</h2>
+                <div class="player">
+                    <h3>Jasper Cillessen</h3>
+                    <p>Shirt Number: <span class="number">1</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">7</span></p>
+                        <p class="stats">Clean Sheets: 4</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Tim Krul</h3>
+                    <p>Shirt Number: <span class="number">23</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">1</span></p>
+                        <p class="stats">Clean Sheets: 0</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Michel Vorm</h3>
+                    <p>Shirt Number: <span class="number">22</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p class="stats">Clean Sheets: N/A</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="defenders">
+                <h2>Defenders</h2>
+                <div class="player">
+                    <h3>Daryl Janmaat</h3>
+                    <p>Position: Right Back</p>
+                    <p>Shirt Number: <span class="number">7</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">2</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Paul Verhaegh</h3>
+                    <p>Position: Right Back</p>
+                    <p>Shirt Number: <span class="number">12</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Stefan de Vrij</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">3</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">7</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Bruno Martins Indi</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">4</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">6</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Ron Vlaar</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">2</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">7</span></p>
+                        <p>Goals: <span class="goals">2</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Joel Veltman</h3>
+                    <p>Position: Center Back / Right Back</p>
+                    <p class="number">Shirt Number: <span class="number">13</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">2</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Terence Kongolo</h3>
+                    <p>Position: Left Back</p>
+                    <p>Shirt Number: <span class="number">14</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">1</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Daley Blind</h3>
+                    <p>Position: Left Back / Left Midfielder</p>
+                    <p>Shirt Number: <span class="number">5</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">7</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">3</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="midfielders">
+                <h2>Midfielders</h2>
+                <div class="player">
+                    <h3>Dirk Kuyt</h3>
+                    <p>Position: Center Midfielder / Right Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">15</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Georginio Wijnaldum</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">20</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">7</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Nigel de Jong</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">6</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Jonathan de Guzmán</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">8</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">3</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Jordy Clasie</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">16</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">2</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Leroy Fer</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">18</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">1</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Wesley Sneijder</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">10</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">6</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="attackers">
+                <h2>Attackers</h2>
+                <div class="player">
+                    <h3>Arjen Robben</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">11</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">7</span></p>
+                        <p>Goals: <span class="goals">3</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Robin van Persie</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">9</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">6</span></p>
+                        <p>Goals: <span class="goals">4</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Memphis Depay</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">21</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">4</span></p>
+                        <p>Goals: <span class="goals">2</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Jermaine Lens</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">17</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">4</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Klaas Jan Huntelaar</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">19</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">3</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="sorted">
+                <div class="sortedgp"></div>
+                <div class="sortedgoals"></div>
+                <div class="sortedassists"></div>
+            </div>
+        </main>
+        <script src="./wc.js"></script>
+    </body>
+</html>

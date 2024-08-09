@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="wc.css">
+        <title>Costa Rica Squad</title>
+    </head>
+    <body>
+        <div class="bg"></div>
+
+        <div class="bio">
+          <h1>Costa Rica</h1>
+          <i>"Los Ticos"</i>
+          <br>
+          <img src='https://i.postimg.cc/dZ76VT5g/istockphoto-1350994555-612x612.jpg' alt='cr-flag' class="flag"/>
+          <br>
+          <p>Coach: Jorge Luis Pinto</p>
+          <p class="forma">Formation: 5-4-1</p>
+          <p>Star Player: Keylor Navas</p>
+          <img src='https://i.postimg.cc/Wq7w1Lrq/Untitled-design-6.png' alt='541' class="form"/>
+          <p class="story">The true Cinderella story of the tournament, Costa Rica shocked the world by making it all the way to the quarter-finals where they were elminated by The Netherlands in a penalty shootout nail-biter. Entering the tournament with no notable stars, Jorge Luis Pinto's men made up for what they lacked in quality with passion and tenacity. This 2014 run saw goalkeeper Keylor Navas gain the attention of big European clubs, who went on to have an amazing club career off the back of his World Cup display, most notably as starting keeper for Real Madrid.</p>
+        </div>
+
+        <label class="tabmenu">
+        <select id="pageSelect" onchange="redirectToPage()">
+            <option value="">Choose a Different Nation</option>
+            <option value="index.html">Back to Home</option>
+            <option value="arg.html">Argentina</option>
+            <option value="bel.html">Belgium</option>
+            <option value="brz.html">Brazil</option>
+            <option value="col.html">Colombia</option>
+            <option value="fr.html">France</option>
+            <option value="ger.html">Germany</option>
+            <option value="nl.html">The Netherlands</option>
+        </select>
+        </label>
+
+        <label class="sort">
+            <label>Sort players by their stats here:</label>
+            <label><input id="reset" type="radio" name="sorter" checked>Default (By Position)</label>
+            <label><input id="sortgp" type="radio" name="sorter">Games Played</label>
+            <label><input id="sortgoals" type="radio" name="sorter">Goals Scored</label>
+            <label><input id="sortassists" type="radio" name="sorter">Assists Made</label>
+        </label>
+
+        <main>
+          <div class="container">            
+            <div class="keepers">
+                <h2>Goalkeepers</h2>
+                <div class="player">
+                    <h3>Keylor Navas</h3>
+                    <p>Shirt Number: <span class="number">1</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p class="stats">Clean Sheets: 3</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Patrick Pemberton</h3>
+                    <p>Shirt Number: <span class="number">18</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p class="stats">Clean Sheets: N/A</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Daniel Cambronero</h3>
+                    <p>Shirt Number: <span class="number">23</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p class="stats">Clean Sheets: N/A</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="defenders">
+                <h2>Defenders</h2>
+                <div class="player">
+                    <h3>Christian Gamboa</h3>
+                    <p>Position: Right Wing Back</p>
+                    <p>Shirt Number: <span class="number">16</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Davie Myrie</h3>
+                    <p>Position: Right Wing Back</p>
+                    <p>Shirt Number: <span class="number">8</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">1</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Jhonny Acosta</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">2</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">2</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Óscar Duarte</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">6</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">4</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Geancarlo González</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">3</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Michael Umaña</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">4</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">4</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Roy Miller</h3>
+                    <p>Position: Center Back</p>
+                    <p>Shirt Number: <span class="number">19</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">1</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Junior Diaz</h3>
+                    <p>Position: Left Wing Back</p>
+                    <p>Shirt Number: <span class="number">15</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div> 
+                <div class="player">
+                    <h3>Waylon Francis</h3>
+                    <p>Position: Left Wing Back</p>
+                    <p>Shirt Number: <span class="number">12</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="midfielders">
+                <h2>Midfielders</h2>
+                <div class="player">
+                    <h3>Bryan Ruiz</h3>
+                    <p>Position: Right Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">10</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">2</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Celso Borges</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">5</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>José Miguel Cubero</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">22</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">4</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Yeltsin Tejeda</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">17</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Michael Barrantes</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">11</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">2</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Oscar Esteban Granados</h3>
+                    <p>Position: Center Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">13</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Diego Calvo</h3>
+                    <p>Position: Center Midfielder / Left Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">20</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">0</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Christian Bolaños</h3>
+                    <p>Position: Left Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">7</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">2</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Randall Brenes</h3>
+                    <p>Position: Left Midfielder</p>
+                    <p class="number">Shirt Number: <span class="number">14</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">3</span></p>
+                        <p>Goals: <span class="goals">0</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="attackers">
+                <h2>Attackers</h2>
+                <div class="player">
+                    <h3>Joel Campbell</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">9</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">5</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">1</span></p>
+                    </div>
+                </div>
+                <div class="player">
+                    <h3>Marcos Ureña</h3>
+                    <p>Position: Striker</p>
+                    <p class="number">Shirt Number: <span class="number">21</span></p>
+                    <div class="stats">
+                        <p>Games Played: <span class="gp">4</span></p>
+                        <p>Goals: <span class="goals">1</span>  Assists: <span class="assists">0</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="sorted">
+                <div class="sortedgp"></div>
+                <div class="sortedgoals"></div>
+                <div class="sortedassists"></div>
+            </div>
+        </main>
+        <script src="./wc.js"></script>
+    </body>
+</html>
